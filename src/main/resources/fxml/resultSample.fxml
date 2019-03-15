@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="688.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.forex.forex.ForexApplication">
+    <children>
+        <VBox prefHeight="615.0" prefWidth="595.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <TableView prefHeight="700.0" prefWidth="688.0">
+                    <columns>
+                        <TableColumn fx:id="HDate" prefWidth="75.0" text="Date" />
+                        <TableColumn fx:id="BOpen" prefWidth="75.0" text="BOpen" />
+                        <TableColumn fx:id="BClose" prefWidth="75.0" text="BClose" />
+                        <TableColumn fx:id="BHigh" prefWidth="75.0" text="BHigh" />
+                        <TableColumn fx:id="BLow" prefWidth="75.0" text="BLow" />
+                        <TableColumn fx:id="AOpen" prefWidth="75.0" text="AOpen" />
+                        <TableColumn fx:id="AClose" prefWidth="75.0" text="AClose" />
+                        <TableColumn fx:id="AHigh" prefWidth="75.0" text="AHigh" />
+                        <TableColumn fx:id="ALow" prefWidth="75.0" text="ALow" />
+                        <TableColumn fx:id="Ticket" prefWidth="75.0" text="Ticket" />
+                    </columns>
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                    </columnResizePolicy>
+                </TableView>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
